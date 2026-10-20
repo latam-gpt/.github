@@ -68,6 +68,12 @@ Estas reglas valen para todos los repos de `latam-gpt` que no tengan su propio C
 - ruff para lint y formato, pytest para tests.
 - Las dependencias quedan fijadas en el lock. Si una librería necesita un parche, se hace un fork en `latam-gpt/<librería>` fijado por commit; nunca se edita `site-packages`.
 
+## Código y métodos de otros
+
+- Si un repo o una carpeta es fork o copia de otro repo, o implementa un paper, el README lo dice al inicio con el enlace a la fuente original y su licencia.
+- Al fusionar o archivar un repo, esos enlaces pasan al README del destino. La fuente original nunca se pierde.
+- Los orígenes conocidos están registrados en el campo `origen` de `repos.yaml`, en el repo `organizacion`.
+
 ## Corridas y evaluación
 
 - W&B: un proyecto por repo; corridas nombradas `<modelo>-<etapa>-<fecha>`.
