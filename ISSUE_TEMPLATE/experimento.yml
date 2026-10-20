@@ -1,0 +1,30 @@
+name: Experimento
+description: Una pregunta que se responde corriendo algo
+labels: ["tipo:experimento"]
+body:
+  - type: textarea
+    id: hipotesis
+    attributes:
+      label: Hipótesis
+      description: Qué crees que va a pasar y por qué.
+    validations:
+      required: true
+  - type: textarea
+    id: medicion
+    attributes:
+      label: Cómo se mide
+      description: Métrica, benchmark de latamgpt-eval o criterio de éxito.
+    validations:
+      required: true
+  - type: input
+    id: presupuesto
+    attributes:
+      label: Presupuesto
+      description: GPU-horas y clúster.
+  - type: input
+    id: fecha-termino
+    attributes:
+      label: Fecha de término
+      description: Cuándo se decide si se promueve o se archiva (AAAA-MM-DD).
+    validations:
+      required: true

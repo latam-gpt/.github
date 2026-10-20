@@ -1,0 +1,7 @@
+{
+  "name": "CI de Python (latam-gpt)",
+  "description": "Lint con ruff, tests con pytest y escaneo de secretos con gitleaks, igual que template-python.",
+  "iconName": "python",
+  "categories": ["Python"],
+  "filePatterns": ["pyproject.toml$"]
+}
