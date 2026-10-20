@@ -1,0 +1,24 @@
+name: Tarea
+description: Trabajo concreto con un resultado claro
+labels: ["tipo:tarea"]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qué tiene que existir o funcionar cuando la tarea esté lista.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Enlaces, decisiones previas o repos relacionados.
