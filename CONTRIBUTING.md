@@ -44,10 +44,10 @@ Estas reglas valen para todos los repos de `latam-gpt` que no tengan su propio C
 
 ## Pull requests
 
-- Todo cambio a `main` entra por PR, aunque el repo sea tuyo.
-- Revisa el lead del área (lo asigna `CODEOWNERS`).
-- El título del PR sigue Conventional Commits y se mergea con squash.
-- La CI tiene que estar en verde.
+- Lo recomendado es que todo cambio a `main` entre por PR, para que corra la CI.
+- No hace falta aprobación: quien hizo el cambio lo mergea. El lead del área se preocupa de que el repo esté ordenado ([decisión 0006](https://github.com/latam-gpt/organizacion/blob/main/decisiones/0006-todos-mergean.md)).
+- El título del PR sigue Conventional Commits y se mergea con squash, con la CI en verde.
+- El plugin `latamgpt` de Claude Code arma la rama, el commit y el PR con este formato.
 
 ## Secretos
 
