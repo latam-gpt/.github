@@ -62,6 +62,12 @@ Estas reglas valen para todos los repos de `latam-gpt` que no tengan su propio C
 - Antes de subir datos, revisa que no tengan datos personales.
 - Los notebooks se versionan sin salidas (nbstripout lo hace solo).
 
+## Idioma
+
+- El código va en inglés: nombres de variables, funciones, clases, módulos, archivos y carpetas de código; comentarios y docstrings; mensajes de log, errores y ayuda de la CLI; comandos, flags y claves de configuración ([decisión 0007](https://github.com/latam-gpt/organizacion/blob/main/decisiones/0007-codigo-en-ingles.md)).
+- Commits, PRs, issues, README y docs pueden ir en español o en inglés.
+- El código que ya está en español se traduce repo por repo, en un PR `refactor:` propio. Mientras tanto, los cambios chicos dentro de un módulo en español siguen su idioma; los módulos nuevos van en inglés.
+
 ## Python
 
 - uv, `pyproject.toml` y `uv.lock`, con la versión de Python fijada en `.python-version`.
